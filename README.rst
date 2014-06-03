@@ -12,7 +12,6 @@ TODO list
 ~~~~~~~~~~
 
 * Add small base script (bash). (added)
-* Work around with systemctl on OpenSUSE. (*)
-
-you can read about it here: http://www.forosuse.org/forosuse/showpost.php?p=164799&postcount=4 (in spanish)
+* Work around with systemd on OpenSUSE: You can read about it here: http://www.forosuse.org/forosuse/showpost.php?p=164799&postcount=4 (is in spanish) I will put it in the wiki to star it clean.
+* Add service code here.
 
