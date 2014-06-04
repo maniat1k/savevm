@@ -7,6 +7,7 @@ A solution on VirtualBox's VMS before the host go poweroff.
 
 The idea is to make a simple solution to prevent Virtual Machines to shutdown or break when the host is going down.
 Try to save them before that happens...
+Read the wiki (still on construction) https://github.com/maniat1k/savevm/wiki
 
 TODO list
 ~~~~~~~~~~
