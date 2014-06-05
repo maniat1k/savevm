@@ -1,0 +1,14 @@
+[Unit]
+Description=SaveVM create savestate before host shutdown 
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/lib/systemd/script/savevm.sh
+RemainAfterExit=yes
+User=root
+PrivateTmp=yes
+
+[Install]
+WantedBy=multi-user.target
+
