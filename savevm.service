@@ -1,10 +1,10 @@
 [Unit]
 Description=SaveVM create savestate before host shutdown 
-After=network.target
+Before=vboxdrv.service
 
 [Service]
 Type=oneshot
-ExecStart=/usr/lib/systemd/script/savevm.sh
+ExecStart=. /opt/savevm.sh
 RemainAfterExit=yes
 User=root
 PrivateTmp=yes
