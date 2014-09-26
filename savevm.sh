@@ -1,5 +1,6 @@
 #!/bin/bash
-#Check the running machines
+#Check the running machines on root
+#Need to check for other users on the machine.
 for i in `/usr/bin/VBoxManage list runningvms | grep "{\|}" | cut -d " " -f1 | tr -d "\""`;do
 #time it. 
 export time=`date`
