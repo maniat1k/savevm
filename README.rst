@@ -9,8 +9,8 @@ The idea is to make a simple solution to prevent Virtual Machines to shutdown or
 
 This is a small "solution" add the script path to /etc/init.d/halt.local this is not the idea but is just for now.
 
-TODO list
+UPDATE(s)!
 ~~~~~~~~~~
 
-* Add small base script (bash). (added)
-* Work around with systemd on OpenSUSE: You can read about it here: http://www.forosuse.org/forosuse/showpost.php?p=164799&postcount=4 (is in spanish) 
+* Add small base script (bash).
+* Now it writes itself on halt.local. 16/10/14
