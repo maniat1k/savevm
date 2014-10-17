@@ -1,6 +1,6 @@
 #!/bin/bash
 export path=`/usr/bin/realpath savevm.sh`
-export data=`/usr/bin/grep testtotal.sh /home/marcelo/test`
+export data=`/usr/bin/grep savevm.sh /etc/init.d/halt.local`
 export time=`date`
 
 #Check if the script is saved on halt.local.
