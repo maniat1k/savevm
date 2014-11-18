@@ -9,6 +9,7 @@ echo "loaded"
 else
 echo "missing: fixing for next time!"
 echo $path >> /etc/init.d/halt.local
+ln -s "$path" "/usr/local/bin/savevm.sh"
 fi
 
 #Check the running machines on root.
