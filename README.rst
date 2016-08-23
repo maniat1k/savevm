@@ -12,7 +12,7 @@ This is a small "solution" add the script path to /etc/init.d/halt.local this is
 
 How-to use.
 ~~~~~~~~~~~
-The idea is to run it manually the first time to see how it works: the script will right itself on /etc/init.d/halt.local to start doing what it supost to do.
+Run it manually the first time to see how it works: the script will right itself on /etc/init.d/halt.local to start doing what it supost to do.
 Remember the savestate of the machines will be saved on a temporal file on /tmp, but the automatic starttup is as always worked on virtualbox.
 
 
